@@ -1,0 +1,23 @@
+{
+  "name": "electron-music-player",
+  "version": "1.0.0",
+  "description": "## Steps to set up project 1. ```npm init```",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyannus/electron-music-player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuyannus/electron-music-player/issues"
+  },
+  "homepage": "https://github.com/xuyannus/electron-music-player#readme",
+  "dependencies": {
+    "electron": "^5.0.4"
+  }
+}
