@@ -61,6 +61,9 @@ $("#btn-clear-playlist").get(0).onclick = function () {
   clearPlayList()
 }
 
+$("#volume-change").get(0).oninput = function (args) {
+  audioButton.volume = args.target.value
+}
 
 function updatePlayButton() {
   if (playing) {
