@@ -6,14 +6,12 @@ let mainWin
 app.on('ready', () => {
   mainWin = new BrowserWindow({
     height: 500,
-    width: 800,
+    width: 330,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    resizable: false
   })
 
   mainWin.loadFile('music.html')
-
-  mainWin.webContents.openDevTools()
-
 })
