@@ -22,5 +22,8 @@
     "jquery": "^3.5.1",
     "music-metadata": "^6.4.0",
     "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.0.0"
   }
 }
